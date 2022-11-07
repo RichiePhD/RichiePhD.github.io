@@ -1,100 +1,76 @@
-* {
-    font-family: Helvetica, Arial, sans-serif;
-    /*border: 1px solid red;
-    */
-  }
-html{
+@font-face {
+  font-family: 'Satoshi';
+  src: url(fonts/Satoshi-Variable.ttf);
+}
+
+*{
+  font-family: 'Satoshi';}
+
+html, body{
+min-height: 100%;
 }
 
  body{
-    text-align: center;
-    place-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
   }
-   
-  .header{
-    position: fixed;
-    background-color: rgb(202, 202, 202);
-    top: 0px;
-    z-index: 1;
-    width: 100%;
-    border-bottom: 2px solid rgb(255, 81, 0)
-   
-  }
-  .nav img{
-width: 17%;
-height: auto;
-  }
-.nav_actions{
-
-}
   
+  #textlogo {
+    font-size: 4em;
+    font-weight: 800;
+    float: left;
+    margin-left: 1%;
+   border-bottom: solid #222;
+    border-top: solid #222;
+    border-width: 1px;
+  }
+
+.nav{
+  float: right;
+  margin-right: 1%;
+  padding-top: 1%;
+}
+
   .nav li:hover {
-    background: white;
-    border: 1px solid red;
-    color: red;
+    color: rgb(71, 71, 71);
+    text-shadow: 0 0 5px #ff0000;
   }
 
   .nav_actions li{
     text-align: center;
-    border: none;
-    background-color: blanchedalmond;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    display: inline-block;
+    border-bottom: solid #222;
+    border-top: solid #222;
+    border-width: 1px;
     margin: 10px auto;
     width: 90px;
     list-style-type: none;
   }
-
+h1, nav, div{
+  display: inline-block;
+}
   .nav_actions ul{
     padding: 0;
   }
 
-  .nav_actions li:hover {
-    background: white;
-    border: 1px solid red;
-    color: red;
-  }
-
-  .content{
-  width: 70%;
-  margin: 200px;
-  display: block;
-  }
-  
-  .welcome{
+.content{
+  text-align: center;
+}
 
 
-  }
 
-  .welcome h1{
-    
-  }
 
   .border-wrapper{
- 
     max-width: 180px;
     max-height: 220px;
     background: linear-gradient(to right, red, purple);
     margin: 10px auto;
   }
 
-    #RichiePic {
-      width: 170px;
-      background: #222;
-      height:auto;
-      margin: 10px 1px;
-    }
-    
-  #Intro1{
-    width: auto;
-    margin: 0 auto;
-  }
-
-  #Intro2{
-    width: auto;
-    margin: 0 auto;
-  }
-   
-   
   p, 
   li {
     font-size: 18px;
@@ -106,7 +82,43 @@ height: auto;
     text-decoration: none;
   }
 
+.content{
+min-width: auto;
+}
 
+.icons{
+  display:flex;
+  max-width: 6%;
+  max-height: 6%;
+  margin-left: 37%;
+}
+
+#aboutme {
+  
+}
+
+#papers {
+  opacity: 50%;
+}
+
+#projects {
+  opacity: 50%;
+}
+
+#twitter {
+  opacity: 50%;
+}
+
+
+
+#rotatingcontainer{
+  padding-top: 3%;
+}
+#RichiePic {
+  width: 20%;
+  margin: 10px auto;
+  border: 2px solid #222;
+}
 
 
 #Message{
@@ -114,7 +126,9 @@ display: block;
 }
 
 input[type=text]{
-border: none;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 4px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
 padding: 2px;
 margin: 6px 4px;
 }
@@ -122,16 +136,15 @@ margin: 6px 4px;
 
 textarea {
   display: block;
-  width: 25%; /* Full width */
+  width: 40%; /* Full width */
   padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
+  border: 1px solid rgb(0, 0, 0); /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
  margin: 0 auto;
 }
 /* Style the submit button with a specific background color etc */
 input[type=send] {
-  background-color: blanchedalmond;
   font-size: 1.3em;
   color: rgb(0, 0, 0);
   border: none;
@@ -143,20 +156,18 @@ input[type=send] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=send]:hover {
-  background: white;
-    border: 1px solid red;
-    color: red;
+    color: rgb(73, 73, 73);
+    text-shadow: 0 0 5px #ff0000;
 }
 
   footer {
-    padding: 1rem 0;
-    border-top: 1px solid #ff5100;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.75em;
-    color: #3b3b3b;
+    display: block;
     text-align: center;
-    background-color: rgb(199, 199, 199);
+    padding: 1rem 0;
     width: 100%;
     height: auto;
+  }
+  span{
+    align-self: center;
   }
 

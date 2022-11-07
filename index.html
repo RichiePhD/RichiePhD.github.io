@@ -4,17 +4,21 @@
   <title>Home │ Richie PhD</title>
   <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  <script src="JavaScript/jquery-1.10.2.js" type="text/javascript"></script> 
+  <script type="'text/javascript">
+    $("a[href*='" + location.pathname + "']").addClass("current");
+  </script>
 </head>
 <body>
    <!--Header and nav bar below-->  
     <header class='header'>
+      <h1 id ='textlogo'>Richie/PhD</h1>
       <nav class ='nav'> 
-            <img src='resources\Images\RichiePhDLogo.png' alt='RichiePhDlogo'>
       <div class='nav_actions'>
         <ul>
-          <li>Home</li>
-          <li>Projects</li>
-          <li>Blog</li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a>Projects</a></li>
+          <li><a>Blog</a></li>
         </ul>
       </div>
       </nav>
@@ -22,18 +26,27 @@
     <!--Main content below, above divs counted for--> 
     
       <div class='content'>
-        <div class='welcome'>
-          <h1>Hello, I'm Richie/PhD :)</h1>
+        <div class='icons'>
+          <img id = 'aboutme'src="./resources/Images/person-circle-question-solid.svg">
+          <img id = 'papers' src="./resources/Images/scroll-solid.svg">
+          <img id = 'projects'src="./resources/Images/microscope-solid.svg">
+          <img id = 'twitter'src="./resources/Images/twitter.svg">
         </div>
-        <div class='border-wrapper'><img id= 'RichiePic' src='resources\Images\RichiePhD.jpg' alt= 'Pic of RichiePhD trying to look professional'></div>
-        <p id='Intro1'>I'm a PhD student at the <strong>University of Exeter</strong> , studying the use of novel technologies to help detect mine-waste. </p>
-           <div id='list1'>
-            <p id='Intro2'> I have many interests, they include:</p>
-            <ul>
-                <li>Learn languages <em>(natural & programming)</em></li>
-                <li>Gaming, technology & random projects</li>
-                <li>Keeping fit, including BJJ <em>(Brazilian Jiu-Jitsu)</em></li>
-                <li>Spending time with my doggos, family and friends </li>
+
+           <div id='rotatingcontainer'>
+            <div class="content">
+              <div><img id="RichiePic" src="resources\Images\RichiePhD.jpg" alt="Pic of RichiePhD trying to look professional"></div>
+              <p>I'm a PhD student at the <strong>University of Exeter</strong> , studying the use of novel technologies to help detect mine-waste. </p>
+                 <div>
+                  <p> I have many interests, they include:</p>
+                  <ul>
+                      <li>Learn languages <em>(natural &amp; programming)</em></li>
+                      <li>Gaming, technology &amp; random projects</li>
+                      <li>Keeping fit, including BJJ <em>(Brazilian Jiu-Jitsu)</em></li>
+                      <li>Spending time with my doggos, family and friends </li>
+                 </ul></div>
+             </div>
+            
            </div>
        </div>
        <footer>
@@ -45,11 +58,11 @@
                <label><span><strong>Email</strong></span></label>
                <input type="text" id="femail" name="email" placeholder="Your email">
                <label id='Message'><span><strong>Message</strong></span></label>
-               <textarea id="message" name="message" placeholder="Hi, I'm Susan! I'm contacting you to say..." style="height:50px"></textarea>
+               <textarea id="message" name="message" placeholder="Hi, I'm..." style="height:50px"></textarea>
                <input type="send" value="send">
           </form>
         </div>
-        <span>&copy; Richie/PhD</span>
+        <p>&copy; Richie/PhD</p>
        </footer>  
 </body>
 </html>
