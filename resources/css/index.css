@@ -13,7 +13,6 @@ min-height: 100%;
  body{
   height: 100vh;
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
   }
   
@@ -82,15 +81,19 @@ h1, nav, div{
     text-decoration: none;
   }
 
-.content{
-min-width: auto;
-}
+
 
 .icons{
-  display:flex;
-  max-width: 6%;
-  max-height: 6%;
-  margin-left: 37%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+ position: sticky;
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 49px;
+  min-height: 49px;
+  margin-left: 45%;
+ 
 }
 
 #aboutme {
@@ -98,15 +101,18 @@ min-width: auto;
 }
 
 #papers {
-  opacity: 50%;
+  opacity: 30%;
+
 }
 
 #projects {
-  opacity: 50%;
+  opacity: 30%;
+
 }
 
 #twitter {
-  opacity: 50%;
+  opacity: 30%;
+
 }
 
 

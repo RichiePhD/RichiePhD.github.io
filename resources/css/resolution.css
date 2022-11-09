@@ -1,0 +1,91 @@
+
+    @media only screen and (max-width: 700px) and (orientation: landscape) {
+        #rotatingcontainer {
+          font-size: 0.1rem;
+        } }
+  
+          
+/* ipads*/
+
+@media only screen and (max-width: 1400px) {
+    #rotatingcontainer {
+    font-size: 0.1rem;
+    } }
+  
+  @media only screen and (max-width: 1200px) {
+    #rotatingcontainer {
+    font-size: 0.1rem;
+    } }
+    
+    @media only screen and (max-width: 1200px) {
+        #rotatingcontainer {
+        font-size: 0.1rem;
+      } }
+  
+      @media only screen and (max-width: 1200px) {
+        #rotatingcontainer{
+            font-size: 0.1rem;
+        } }
+  
+  
+  
+      @media only screen and (max-width: 1024px) {
+        #rotatingcontainer {
+        font-size: 0.1rem;
+       }}
+  
+          @media only screen and (max-width: 820px) {
+            #rotatingcontainer  {
+            font-size: 0.1rem;
+            } }
+  
+            @media only screen and (max-width: 820px) {
+                #rotatingcontainer{
+                font-size: 0.1rem;
+              } }
+  
+            
+  /* iphone 678 plus*/
+  
+  @media only screen and (max-width: 900px) and (orientation: landscape) {
+    #rotatingcontainer {
+    font-size: 0.1rem;
+    } }
+  
+ 
+    @media only screen and (max-width: 900px) and (orientation: landscape) {
+      #rotatingcontainer {
+      font-size: 1rem;
+      } }
+  
+  @media only screen and (max-width: 736px) and (orientation: landscape) {
+    #rotatingcontainer {
+        font-size: 0.1rem;
+    } }
+  
+    @media only screen and (max-width: 736px) and (orientation: landscape) {
+      #rotatingcontainer {
+      font-size: 0.1rem;
+      } }
+  
+    @media only screen and (max-width: 420px) {
+      #rotatingcontainer {
+        font-size: 0.1rem;
+      } }
+  
+      @media only screen and (max-width: 420px) {
+        #rotatingcontainer {
+        font-size: 0.1rem;
+         } }
+     
+            
+       @media only screen and (max-width: 420px) {
+        #rotatingcontainer {
+            font-size: 0.1rem;
+         } }
+  
+              
+  @media only screen and (max-width: 420px) {
+    #rotatingcontainer {
+        font-size: 0.1rem;
+    } }  
