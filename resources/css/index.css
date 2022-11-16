@@ -90,7 +90,6 @@ h1, nav, div{
  position: sticky;
  width: auto;
   margin-left: 45%;
- 
 }
 
 #aboutme {
@@ -98,7 +97,21 @@ h1, nav, div{
  max-height: 50px;
  min-width: 49px;
  min-height: 49px;
+ animation: fade 40s linear 1s infinite;
 }
+
+@keyframes fade {
+  10% {opacity: 1;}
+  20% {opacity: 1;}
+  30% {opacity: 0.3;}
+  40% {opacity: 0.3;}
+  50% {opacity: 0.3;}
+  60% {opacity: 0.3;}
+  70% {opacity: 0.3;}
+  80% {opacity: 0.3;}
+  90% {opacity: 0.3;}
+  100% {opacity: 0.3;}}
+
 
 #papers {
   opacity: 30%;
@@ -106,7 +119,20 @@ h1, nav, div{
   max-height: 50px;
   min-width: 49px;
   min-height: 49px;
+  animation: fade2 40s linear 1s infinite;
 }
+@keyframes fade2 {
+  10% {opacity: 0.3;}
+  20% {opacity: 0.3;}
+  30% {opacity: 0.3;}
+  40% {opacity: 1;}
+  50% {opacity: 1;}
+  60% {opacity: 0.3;}
+  70% {opacity: 0.3;}
+  80% {opacity: 0.3;}
+  90% {opacity: 0.3;}
+  100% {opacity: 0.3;}
+  }
 
 #projects {
   opacity: 30%;
@@ -114,7 +140,20 @@ h1, nav, div{
   max-height: 50px;
   min-width: 49px;
   min-height: 49px;
+  animation: fade3 40s linear 1s infinite;
 }
+@keyframes fade3 {
+  10% {opacity: 0.3;}
+  20% {opacity: 0.3;}
+  30% {opacity: 0.3;}
+  40% {opacity: 0.3;}
+  50% {opacity: 0.3}
+  60% {opacity: 1;}
+  70% {opacity: 1;}
+  80% {opacity: 0.3;}
+  90% {opacity: 0.3;}
+  100% {opacity: 0.3;}
+  }
 
 #twitter {
   opacity: 30%;
@@ -122,7 +161,20 @@ h1, nav, div{
   max-height: 50px;
   min-width: 49px;
   min-height: 49px;
+  animation: fade4 40s linear 1s infinite;
 }
+@keyframes fade4 {
+  10% {opacity: 0.3;}
+  20% {opacity: 0.3;}
+  30% {opacity: 0.3;}
+  40% {opacity: 0.3;}
+  50% {opacity: 0.3}
+  60% {opacity: 0.3;}
+  70% {opacity: 0.3;}
+  80% {opacity: 1;}
+  90% {opacity: 1;}
+  100% {opacity: 0.3;}
+  }
 
 
 
