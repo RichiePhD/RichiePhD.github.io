@@ -88,31 +88,40 @@ h1, nav, div{
   flex-direction: row;
   flex-wrap: nowrap;
  position: sticky;
-  max-width: 50px;
-  max-height: 50px;
-  min-width: 49px;
-  min-height: 49px;
+ width: auto;
   margin-left: 45%;
  
 }
 
 #aboutme {
-  
+  max-width: 50px;
+ max-height: 50px;
+ min-width: 49px;
+ min-height: 49px;
 }
 
 #papers {
   opacity: 30%;
-
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 49px;
+  min-height: 49px;
 }
 
 #projects {
   opacity: 30%;
-
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 49px;
+  min-height: 49px;
 }
 
 #twitter {
   opacity: 30%;
-
+  max-width: 50px;
+  max-height: 50px;
+  min-width: 49px;
+  min-height: 49px;
 }
 
 
