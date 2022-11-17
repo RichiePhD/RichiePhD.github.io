@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home │ Richie PhD</title>
+  <meta name="viewport" content="width= device-width, initial-scale=1">
+  <link href="/css/index.css" type="text/css" rel="stylesheet">
+  <link href="/css/reset.css" type="text/css" rel="stylesheet">
+  <link href="/css/resolution.css" type="text/css" rel="stylesheet">
+  <script src="JavaScript/jquery-1.10.2.js" type="text/javascript"></script> 
+  <script type="'text/javascript">
+    $("a[href*='" + location.pathname + "']").addClass("current");
+  </script>
+</head>
+<body>
+   <!--Header and nav bar below-->  
+    <header>
+      <h1 id ='textlogo'>Richie/PhD</h1>
+      <nav class ='nav'> 
+      <div class='nav_actions'>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a>Projects</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+        </ul>
+      </div>
+      </nav>
+    </header> 
+    <!--Main content below, above divs counted for--> 
+           <p id="loading"> coming soon...</p>
+       <footer>
+        <div class='form'>
+          <form action='placeholder'>
+            <h2>Contact Me</h2>
+               <label><span><strong>Name</strong></span></label>
+               <input type="text" id="fname" name="firstname" placeholder="Your name">
+               <label><span><strong>Email</strong></span></label>
+               <input type="text" id="femail" name="email" placeholder="Your email">
+               <label id='Message'><span><strong>Message</strong></span></label>
+               <textarea id="message" name="message" placeholder="Hi, I'm..." style="height:50px"></textarea>
+               <input type="send" value="send">
+          </form>
+          <p>&copy; Richie/PhD</p>
+        </div>
+      </footer>
+</body>
+</html>
